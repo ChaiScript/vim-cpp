@@ -1,7 +1,19 @@
 # vim-cpp
 
-This is Vim syntax files with C++11 support. `c.vim` is based on Bram Moolenaar
+This is Vim syntax files with C++11 support. They are forked from vim-jp/vim-cpp 
+and have support fo syntax highlighting of embeded ChaiScript.
+
+To enable syntax highlighting wrap your embedded script in raw string literals as such:
+
+```cpp
+std::string = R"chaiscript(
+  // some script
+)chaiscript";
+```
+
+`c.vim` is based on Bram Moolenaar
 <Bram@vim.org> and `cpp.vim` is based on Ken Shan <ccshan@post.harvard.edu>.
+
 
 ## License
 
